@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "About"
     url: /about/
+  - title: "People/Expertise"
+    url: /people-and-expertise/
+  - title: "Projects, Collaboration, Participation"
+    url: /projects-collaboration-participation/
+  - title: "Activities"
+    url: /activities/
