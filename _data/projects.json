@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Test Project",
+    "funders": ["Curtin"],
+    "collaborators": ["Ben Phillips", "Hayley D'Agui"],
+    "description": "Some cool project",
+    "image": "cycadLeaves.png"
+  },
+  {
+    "title": "Test Project #2",
+    "funders": ["Curtin"],
+    "collaborators": ["Ben Phillips"],
+    "description": "Some really long description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "image": "bee.jpeg"
+  },
+  {
+    "title": "Toad Containment Zone",
+    "funders": ["WA Department of Water and Environmental Regulation", "BHP"],
+    "collaborators": [
+      "Ben Phillips",
+      "Tim Dempster",
+      "Brendan von Takach",
+      "Judy Dunlop"
+    ],
+    "description": "A once in a lifetime opportunity has emerged for us to stop the spread of cane toads. More than a decade of scientific work indicates that, by managing artificial waterpoints in the coastal strip between Broome and Port Hedland, we can halt the toad invasion. Establishing this Toad Containment Zone (TCZ) will keep toads out of the Pilbara and potential habitat as far south as Shark Bay. This action benefits the environment, but also communities in the Pilbara and further south; across 27 million hectares of Western Australia.",
+    "image": "Toad.png"
+  }
+]

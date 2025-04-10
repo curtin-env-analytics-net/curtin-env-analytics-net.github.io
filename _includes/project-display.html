@@ -1,0 +1,8 @@
+<div class="project-display">
+    <img src="/assets/images/{{ project.image }}"></img>
+    <div><p class="project-title">{{ project.title }}</p>
+        <p><span>Collaborators</span>: {%for collaborator in project.collaborators %}{{ collaborator }}{% if forloop.last != true %}, {% endif %}{% endfor %}</p>
+        <p><span>Funders</span>: {%for funder in project.funders %}{{ funder}}{% if forloop.last != true %}, {% endif %}{% endfor %}</p>
+        <p class="project-description">{{ project.description }}</p>
+    </div>
+</div>
