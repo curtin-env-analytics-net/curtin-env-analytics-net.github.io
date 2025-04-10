@@ -1,0 +1,20 @@
+[
+    {
+        "first_name": "Judy",
+        "last_name": "Dunlop",
+        "position": "Research Fellow",
+        "image": "https://dxybwjmxea64j.cloudfront.net/judy-dunlop-34765254.jpg"
+    },
+    {
+        "first_name": "Ben",
+        "last_name": "Phillips",
+        "position": "Professor",
+        "image": "https://dxybwjmxea64j.cloudfront.net/ben-phillips-ae738ff4.png"
+    },
+    {
+        "first_name": "Holly",
+        "last_name": "Kirk",
+        "position": "Senior Lecturer",
+        "image": null
+    }
+]
