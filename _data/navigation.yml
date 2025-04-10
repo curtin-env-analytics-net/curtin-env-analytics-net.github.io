@@ -1,6 +1,4 @@
 main:
-  - title: "About"
-    url: /about/
   - title: "People/Expertise"
     url: /people-and-expertise/
   - title: "Projects, Collaboration, Participation"
