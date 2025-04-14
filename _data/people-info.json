@@ -1,15 +1,117 @@
 [
     {
-        "first_name": "Judy",
-        "last_name": "Dunlop",
-        "position": "Research Fellow",
-        "image": "https://dxybwjmxea64j.cloudfront.net/judy-dunlop-34765254.jpg"
+        "first_name": "Adam",
+        "last_name": "Sparks",
+        "position": "Professor",
+        "image": "https://dxybwjmxea64j.cloudfront.net/adam-sparks-3317480e.jpeg"
+    },
+    {
+        "first_name": "Agustin",
+        "last_name": "De Wysiecki",
+        "position": "Research Associate",
+        "image": "https://dxybwjmxea64j.cloudfront.net/agustin-de-wysiecki-5743a753.jpg"
+    },
+    {
+        "first_name": "Alan",
+        "last_name": "Payne",
+        "position": "Senior Lecturer",
+        "image": "https://dxybwjmxea64j.cloudfront.net/alan-payne-55c99b32.jpg"
+    },
+    {
+        "first_name": "Aloke",
+        "last_name": "Phatak",
+        "position": "Senior Lecturer",
+        "image": null
+    },
+    {
+        "first_name": "Arash",
+        "last_name": "Bahramian",
+        "position": "Senior Lecturer",
+        "image": "https://dxybwjmxea64j.cloudfront.net/arash-bahramian-a12cb82c.jpg"
+    },
+    {
+        "first_name": "Ashraf",
+        "last_name": "Dewan",
+        "position": "Associate Professor",
+        "image": "https://dxybwjmxea64j.cloudfront.net/ashraf-dewan-4c0db966.jpg"
     },
     {
         "first_name": "Ben",
         "last_name": "Phillips",
         "position": "Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/ben-phillips-ae738ff4.png"
+    },
+    {
+        "first_name": "Ben",
+        "last_name": "Saunders",
+        "position": "Senior Lecturer",
+        "image": "https://dxybwjmxea64j.cloudfront.net/ben-saunders-dc73d60a.png"
+    },
+    {
+        "first_name": "Benchawan",
+        "last_name": "Wiwatanapataphee",
+        "position": "Professor",
+        "image": "https://dxybwjmxea64j.cloudfront.net/benchawan-wiwatanapataphee-f71b0483.png"
+    },
+    {
+        "first_name": "Brenton",
+        "last_name": "von Takach",
+        "position": "Research Fellow",
+        "image": "https://dxybwjmxea64j.cloudfront.net/brenton-von-takach-94be6f3f.png"
+    },
+    {
+        "first_name": "Cynthia",
+        "last_name": "Joll",
+        "position": "Professor",
+        "image": null
+    },
+    {
+        "first_name": "Damien",
+        "last_name": "Arrigan",
+        "position": "Professor",
+        "image": "https://dxybwjmxea64j.cloudfront.net/damien-arrigan-20147946.png"
+    },
+    {
+        "first_name": "David",
+        "last_name": "Antoine",
+        "position": "Professor",
+        "image": "https://dxybwjmxea64j.cloudfront.net/david-antoine-86751d58.jpg"
+    },
+    {
+        "first_name": "Debbie",
+        "last_name": "Silvester-Dean",
+        "position": "Professor",
+        "image": "https://dxybwjmxea64j.cloudfront.net/debbie-silvester-dean-2ec40c28.png"
+    },
+    {
+        "first_name": "Elena",
+        "last_name": "Gorenskaia",
+        "position": "Research Associate",
+        "image": null
+    },
+    {
+        "first_name": "Euan",
+        "last_name": "Harvey",
+        "position": "Professor",
+        "image": null
+    },
+    {
+        "first_name": "Fangyi",
+        "last_name": "Zhang",
+        "position": "Lecturer",
+        "image": "https://dxybwjmxea64j.cloudfront.net/fangyi-zhang-a9c650e7.jpeg"
+    },
+    {
+        "first_name": "Georgina",
+        "last_name": "Sauzier",
+        "position": "Senior Lecturer",
+        "image": "https://dxybwjmxea64j.cloudfront.net/georgina-sauzier-27b987ec.jpg"
+    },
+    {
+        "first_name": "Haylee",
+        "last_name": "D'Agui",
+        "position": "Senior Research Officer",
+        "image": null
     },
     {
         "first_name": "Holly",
