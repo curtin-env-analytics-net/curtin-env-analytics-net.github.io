@@ -21,13 +21,6 @@
         "name_with_seo_suffix": "alan-payne-55c99b32"
     },
     {
-        "first_name": "Aloke",
-        "last_name": "Phatak",
-        "position": "Senior Lecturer",
-        "image": null,
-        "name_with_seo_suffix": "aloke-phatak-6d521b8a"
-    },
-    {
         "first_name": "Arash",
         "last_name": "Bahramian",
         "position": "Senior Lecturer",
@@ -54,5 +47,54 @@
         "position": "Senior Lecturer",
         "image": "https://dxybwjmxea64j.cloudfront.net/ben-saunders-dc73d60a.png",
         "name_with_seo_suffix": "ben-saunders-dc73d60a"
+    },
+    {
+        "first_name": "Benchawan",
+        "last_name": "Wiwatanapataphee",
+        "position": "Professor",
+        "image": "https://dxybwjmxea64j.cloudfront.net/benchawan-wiwatanapataphee-f71b0483.png",
+        "name_with_seo_suffix": "benchawan-wiwatanapataphee-f71b0483"
+    },
+    {
+        "first_name": "Brenton",
+        "last_name": "von Takach",
+        "position": "Research Fellow",
+        "image": "https://dxybwjmxea64j.cloudfront.net/brenton-von-takach-94be6f3f.png",
+        "name_with_seo_suffix": "brenton-von-takach-94be6f3f"
+    },
+    {
+        "first_name": "Damien",
+        "last_name": "Arrigan",
+        "position": "Professor",
+        "image": "https://dxybwjmxea64j.cloudfront.net/damien-arrigan-20147946.png",
+        "name_with_seo_suffix": "damien-arrigan-20147946"
+    },
+    {
+        "first_name": "David",
+        "last_name": "Antoine",
+        "position": "Professor",
+        "image": "https://dxybwjmxea64j.cloudfront.net/david-antoine-86751d58.jpg",
+        "name_with_seo_suffix": "david-antoine-86751d58"
+    },
+    {
+        "first_name": "Debbie",
+        "last_name": "Silvester-Dean",
+        "position": "Professor",
+        "image": "https://dxybwjmxea64j.cloudfront.net/debbie-silvester-dean-2ec40c28.png",
+        "name_with_seo_suffix": "debbie-silvester-dean-2ec40c28"
+    },
+    {
+        "first_name": "Fangyi",
+        "last_name": "Zhang",
+        "position": "Lecturer",
+        "image": "https://dxybwjmxea64j.cloudfront.net/fangyi-zhang-a9c650e7.jpeg",
+        "name_with_seo_suffix": "fangyi-zhang-a9c650e7"
+    },
+    {
+        "first_name": "Georgina",
+        "last_name": "Sauzier",
+        "position": "Senior Lecturer",
+        "image": "https://dxybwjmxea64j.cloudfront.net/georgina-sauzier-27b987ec.jpg",
+        "name_with_seo_suffix": "georgina-sauzier-27b987ec"
     }
 ]

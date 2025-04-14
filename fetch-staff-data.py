@@ -21,6 +21,9 @@ with open("_data/people.txt") as people_identifiers:
         data = response.json().get("data", {})
         staff_data = data.get("staff", {})
         image = data.get("relatedFile", {}).get("file", {}).get("uri")
+        if image is None:
+            # skip staff members who do not have an image on their curtin profile
+            continue
         name_info = staff_data.get("name", {})
         position = staff_data.get("occupancy", {}).get("position", {}).get("positionTitle")
         person_summary = {"first_name": name_info.get("preferredGivenName"), "last_name": name_info.get("preferredFamilyName"), "position": position, "image": image, "name_with_seo_suffix": id}
