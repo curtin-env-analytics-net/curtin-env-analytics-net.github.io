@@ -23,7 +23,7 @@ with open("_data/people.txt") as people_identifiers:
         image = data.get("relatedFile", {}).get("file", {}).get("uri")
         name_info = staff_data.get("name", {})
         position = staff_data.get("occupancy", {}).get("position", {}).get("positionTitle")
-        person_summary = {"first_name": name_info.get("preferredGivenName"), "last_name": name_info.get("preferredFamilyName"), "position": position, "image": image}
+        person_summary = {"first_name": name_info.get("preferredGivenName"), "last_name": name_info.get("preferredFamilyName"), "position": position, "image": image, "name_with_seo_suffix": id}
         people_summaries.append(person_summary)
 
 with open("_data/people-info.json", "w") as f:

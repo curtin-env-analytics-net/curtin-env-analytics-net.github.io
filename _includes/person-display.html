@@ -1,5 +1,5 @@
 <div class="person-display">
-    <img src="{% if person.image %}{{ person.image }}{% else %}/assets/images/default-avatar.jpg{% endif %}"></img>
-    <p class="person-name">{{ person.first_name }} {{ person.last_name }}</p>
+    <a href="https://staffportal.curtin.edu.au/staff/profile/view/{{person.name_with_seo_suffix}}"><img src="{% if person.image %}{{ person.image }}{% else %}/assets/images/default-avatar.jpg{% endif %}"></img></a>
+    <a href="https://staffportal.curtin.edu.au/staff/profile/view/{{person.name_with_seo_suffix}}" class="person-name">{{ person.first_name }} {{ person.last_name }}</a>
     <p>{{ person.position }}</p>
 </div>
