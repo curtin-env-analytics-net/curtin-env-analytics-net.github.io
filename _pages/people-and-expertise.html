@@ -1,0 +1,10 @@
+---
+title: "People/Expertise"
+permalink: /people-and-expertise/
+---
+
+<h1 class="page-title">People</h1>
+<div id="people-container">
+  {% for person in site.data.people-info %} {% include person-display.html
+  person=person %} {% endfor %}
+</div>

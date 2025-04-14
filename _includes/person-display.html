@@ -1,0 +1,5 @@
+<div class="person-display">
+    <img src="{% if person.image %}{{ person.image }}{% else %}/assets/images/default-avatar.jpg{% endif %}"></img>
+    <p class="person-name">{{ person.first_name }} {{ person.last_name }}</p>
+    <p>{{ person.position }}</p>
+</div>
