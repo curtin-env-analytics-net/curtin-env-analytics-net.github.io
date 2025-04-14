@@ -1,0 +1,15 @@
+---
+title: "People"
+permalink: /people/
+---
+
+<h1 class="page-title">People</h1>
+<div class="search-container">
+  <i class="fas fa-search"></i>
+  <input type="text" placeholder="Search by Expertise" id="people-search" />
+</div>
+<div id="people-container">
+  {% for person in site.data.people-info %} {% include person-display.html
+  person=person %} {% endfor %}
+</div>
+<script src="/assets/js/people-filter.js"></script>
