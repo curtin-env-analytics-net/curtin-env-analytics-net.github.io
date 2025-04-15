@@ -1,7 +1,7 @@
 name: test-github-actions
 on: ["workflow_dispatch"]
 jobs:
-  test:
+  update-people-data:
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -10,6 +10,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
-      - run: echo "test" > test2.txt
+      - name: "Set up Python"
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - name: "Install requests library"
+        run: pip install requests
+      - name: "Run staff data fetching script"
+        run: python _fetch_staff_data.py
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
