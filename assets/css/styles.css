@@ -1,3 +1,7 @@
+.footer-upper {
+  margin-bottom: 16px;
+}
+
 #projects-container {
   display: grid;
   margin-left: 12px;
