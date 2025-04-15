@@ -4,188 +4,242 @@
         "last_name": "Sparks",
         "position": "Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/adam-sparks-3317480e.jpeg",
-        "name_with_seo_suffix": "adam-sparks-3317480e"
+        "name_with_seo_suffix": "adam-sparks-3317480e",
+        "email": "adam.sparks@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Agustin",
         "last_name": "De Wysiecki",
         "position": "Research Associate",
         "image": "https://dxybwjmxea64j.cloudfront.net/agustin-de-wysiecki-5743a753.jpg",
-        "name_with_seo_suffix": "agustin-de-wysiecki-5743a753"
+        "name_with_seo_suffix": "agustin-de-wysiecki-5743a753",
+        "email": "agustin.dewysiecki@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Alan",
         "last_name": "Payne",
         "position": "Senior Lecturer",
         "image": "https://dxybwjmxea64j.cloudfront.net/alan-payne-55c99b32.jpg",
-        "name_with_seo_suffix": "alan-payne-55c99b32"
+        "name_with_seo_suffix": "alan-payne-55c99b32",
+        "email": "alan.payne@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Arash",
         "last_name": "Bahramian",
         "position": "Senior Lecturer",
         "image": "https://dxybwjmxea64j.cloudfront.net/arash-bahramian-a12cb82c.jpg",
-        "name_with_seo_suffix": "arash-bahramian-a12cb82c"
+        "name_with_seo_suffix": "arash-bahramian-a12cb82c",
+        "email": "arash.bahramian@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Ashraf",
         "last_name": "Dewan",
         "position": "Associate Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/ashraf-dewan-4c0db966.jpg",
-        "name_with_seo_suffix": "ashraf-dewan-4c0db966"
+        "name_with_seo_suffix": "ashraf-dewan-4c0db966",
+        "email": "a.dewan@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Ben",
         "last_name": "Phillips",
         "position": "Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/ben-phillips-ae738ff4.png",
-        "name_with_seo_suffix": "ben-phillips-ae738ff4"
+        "name_with_seo_suffix": "ben-phillips-ae738ff4",
+        "email": "ben.l.phillips@curtin.edu.au",
+        "expertise": "population, ecology, evolution"
     },
     {
         "first_name": "Ben",
         "last_name": "Saunders",
         "position": "Senior Lecturer",
         "image": "https://dxybwjmxea64j.cloudfront.net/ben-saunders-dc73d60a.png",
-        "name_with_seo_suffix": "ben-saunders-dc73d60a"
+        "name_with_seo_suffix": "ben-saunders-dc73d60a",
+        "email": "ben.saunders@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Benchawan",
         "last_name": "Wiwatanapataphee",
         "position": "Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/benchawan-wiwatanapataphee-f71b0483.png",
-        "name_with_seo_suffix": "benchawan-wiwatanapataphee-f71b0483"
+        "name_with_seo_suffix": "benchawan-wiwatanapataphee-f71b0483",
+        "email": null,
+        "expertise": null
     },
     {
         "first_name": "Brenton",
         "last_name": "von Takach",
         "position": "Research Fellow",
         "image": "https://dxybwjmxea64j.cloudfront.net/brenton-von-takach-94be6f3f.png",
-        "name_with_seo_suffix": "brenton-von-takach-94be6f3f"
+        "name_with_seo_suffix": "brenton-von-takach-94be6f3f",
+        "email": null,
+        "expertise": "conservation ecology, population genomics, threatened species management"
     },
     {
         "first_name": "Damien",
         "last_name": "Arrigan",
         "position": "Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/damien-arrigan-20147946.png",
-        "name_with_seo_suffix": "damien-arrigan-20147946"
+        "name_with_seo_suffix": "damien-arrigan-20147946",
+        "email": "d.arrigan@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "David",
         "last_name": "Antoine",
         "position": "Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/david-antoine-86751d58.jpg",
-        "name_with_seo_suffix": "david-antoine-86751d58"
+        "name_with_seo_suffix": "david-antoine-86751d58",
+        "email": "david.antoine@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Debbie",
         "last_name": "Silvester-Dean",
         "position": "Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/debbie-silvester-dean-2ec40c28.png",
-        "name_with_seo_suffix": "debbie-silvester-dean-2ec40c28"
+        "name_with_seo_suffix": "debbie-silvester-dean-2ec40c28",
+        "email": "d.silvester-dean@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Fangyi",
         "last_name": "Zhang",
         "position": "Lecturer",
         "image": "https://dxybwjmxea64j.cloudfront.net/fangyi-zhang-a9c650e7.jpeg",
-        "name_with_seo_suffix": "fangyi-zhang-a9c650e7"
+        "name_with_seo_suffix": "fangyi-zhang-a9c650e7",
+        "email": "fangyi.zhang@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Georgina",
         "last_name": "Sauzier",
         "position": "Senior Lecturer",
         "image": "https://dxybwjmxea64j.cloudfront.net/georgina-sauzier-27b987ec.jpg",
-        "name_with_seo_suffix": "georgina-sauzier-27b987ec"
+        "name_with_seo_suffix": "georgina-sauzier-27b987ec",
+        "email": "georgina.sauzier@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Jennifer",
         "last_name": "McIlwain",
         "position": "Associate Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/jennifer-mcilwain-582b24b2.png",
-        "name_with_seo_suffix": "jennifer-mcilwain-582b24b2"
+        "name_with_seo_suffix": "jennifer-mcilwain-582b24b2",
+        "email": "jennifer.mcilwain@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Julia",
         "last_name": "Easton",
         "position": "Senior Research Fellow",
         "image": "https://dxybwjmxea64j.cloudfront.net/julia-easton-73549700.png",
-        "name_with_seo_suffix": "julia-easton-73549700"
+        "name_with_seo_suffix": "julia-easton-73549700",
+        "email": "julia.easton@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Mark",
         "last_name": "Hackett",
         "position": "Associate Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/mark-hackett-fac17bd3.jpg",
-        "name_with_seo_suffix": "mark-hackett-fac17bd3"
+        "name_with_seo_suffix": "mark-hackett-fac17bd3",
+        "email": "mark.j.hackett@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Mark",
         "last_name": "Hayes",
         "position": "Senior Lecturer",
         "image": "https://dxybwjmxea64j.cloudfront.net/mark-hayes-464986cc.jpg",
-        "name_with_seo_suffix": "mark-hayes-464986cc"
+        "name_with_seo_suffix": "mark-hayes-464986cc",
+        "email": "mark.hayes@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Nasim",
         "last_name": "Ferdosian",
         "position": "Lecturer",
         "image": "https://dxybwjmxea64j.cloudfront.net/nasim-ferdosian-1bbbb8d8.jpg",
-        "name_with_seo_suffix": "nasim-ferdosian-1bbbb8d8"
+        "name_with_seo_suffix": "nasim-ferdosian-1bbbb8d8",
+        "email": "nasim.ferdosian@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Nicola",
         "last_name": "Armstrong",
         "position": "Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/nicola-armstrong-c0fc3449.jpg",
-        "name_with_seo_suffix": "nicola-armstrong-c0fc3449"
+        "name_with_seo_suffix": "nicola-armstrong-c0fc3449",
+        "email": "nicola.armstrong@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Sarina",
         "last_name": "Claassens",
         "position": "Head of School",
         "image": "https://dxybwjmxea64j.cloudfront.net/sarina-claassens-327ea294.jpg",
-        "name_with_seo_suffix": "sarina-claassens-327ea294"
+        "name_with_seo_suffix": "sarina-claassens-327ea294",
+        "email": null,
+        "expertise": null
     },
     {
         "first_name": "Sean",
         "last_name": "Tomlinson",
         "position": "Lecturer",
         "image": "https://dxybwjmxea64j.cloudfront.net/sean-tomlinson-e3427bfb.jpg",
-        "name_with_seo_suffix": "sean-tomlinson-e3427bfb"
+        "name_with_seo_suffix": "sean-tomlinson-e3427bfb",
+        "email": "sean.tomlinson@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Simon",
         "last_name": "Lewis",
         "position": "Deputy Head of School",
         "image": "https://dxybwjmxea64j.cloudfront.net/simon-lewis-39065270.jpg",
-        "name_with_seo_suffix": "simon-lewis-39065270"
+        "name_with_seo_suffix": "simon-lewis-39065270",
+        "email": "s.lewis@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Sourav",
         "last_name": "Das",
         "position": "Senior Lecturer",
         "image": "https://dxybwjmxea64j.cloudfront.net/sourav-das-0c94321f.png",
-        "name_with_seo_suffix": "sourav-das-0c94321f"
+        "name_with_seo_suffix": "sourav-das-0c94321f",
+        "email": "sourav.das@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Suman",
         "last_name": "Rakshit",
         "position": "Senior Lecturer",
         "image": "https://dxybwjmxea64j.cloudfront.net/suman-rakshit-b9fea73a.jpg",
-        "name_with_seo_suffix": "suman-rakshit-b9fea73a"
+        "name_with_seo_suffix": "suman-rakshit-b9fea73a",
+        "email": "suman.rakshit@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Tele",
         "last_name": "Tan",
         "position": "Deputy Head of School",
         "image": "https://dxybwjmxea64j.cloudfront.net/tele-tan-12c564f9.png",
-        "name_with_seo_suffix": "tele-tan-12c564f9"
+        "name_with_seo_suffix": "tele-tan-12c564f9",
+        "email": "t.tan@curtin.edu.au",
+        "expertise": null
     },
     {
         "first_name": "Todd",
         "last_name": "Robinson",
         "position": "Associate Professor",
         "image": "https://dxybwjmxea64j.cloudfront.net/todd-robinson-5404f1b6.JPG",
-        "name_with_seo_suffix": "todd-robinson-5404f1b6"
+        "name_with_seo_suffix": "todd-robinson-5404f1b6",
+        "email": "t.robinson@curtin.edu.au",
+        "expertise": null
     }
 ]

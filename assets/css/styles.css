@@ -72,6 +72,10 @@
   text-decoration: underline;
 }
 
+.person-display {
+  padding-right: 64px;
+}
+
 .person-display img {
   width: 100px;
   height: 100px;
@@ -100,6 +104,10 @@
 }
 
 .person-display > .person-name:hover {
+  text-decoration: underline;
+}
+
+.expertise-span {
   text-decoration: underline;
 }
 
