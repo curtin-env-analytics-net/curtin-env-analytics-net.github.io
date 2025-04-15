@@ -1,4 +1,4 @@
-name: test-github-actions
+name: update-people-info
 on: ["workflow_dispatch"]
 jobs:
   update-people-data:
