@@ -1,5 +1,7 @@
 name: update-people-info
-on: ["workflow_dispatch"]
+on:
+  schedule:
+    - cron: 40 0 1 * *
 jobs:
   update-people-data:
     permissions:
@@ -20,3 +22,10 @@ jobs:
         run: python _fetch_staff_data.py
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
+  keepalive-job:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: liskin/gh-workflow-keepalive@v1
