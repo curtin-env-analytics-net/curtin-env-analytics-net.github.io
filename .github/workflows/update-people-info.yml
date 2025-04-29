@@ -19,7 +19,7 @@ jobs:
       - name: "Install requests library"
         run: pip install requests
       - name: "Run staff data fetching script"
-        run: python _fetch_staff_data.py
+        run: cd _source_data && python fetch_staff_data.py
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
   keepalive-job:

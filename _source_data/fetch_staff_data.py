@@ -9,15 +9,15 @@ people_summaries = []
 
 emails_to_expertise = {}
 name_to_expertise = {}
-with open("_data/expertise.csv") as expertise_file:
-    reader = csv.reader(expertise_file)
-    # skip column headers of csv file
-    next(reader)
-    for name, email, expertise_string in reader:
-        name_to_expertise[name] = expertise_string
-        emails_to_expertise[email.lower()] = expertise_string
+with open("expertise.csv") as expertise_file:
+    reader = csv.DictReader(expertise_file)
+    for row in reader:
+        name = f"{row["First Name"]} {row["Last Name"]}"
+        email = row["Curtin Email"].lower()
+        name_to_expertise[name] = row["Expertise Keywords"]
+        emails_to_expertise[email.lower()] = row["Expertise Keywords"]
 
-with open("_data/people.txt") as people_identifiers:
+with open("people.txt") as people_identifiers:
     for id in (line.strip() for line in people_identifiers):
         print(f"{BASE_URL}{id}")
         try:
@@ -49,6 +49,6 @@ with open("_data/people.txt") as people_identifiers:
         person_summary = {"first_name": first_name, "last_name": last_name, "position": position, "image": image, "name_with_seo_suffix": id, "email": email, "expertise": expertise}
         people_summaries.append(person_summary)
 
-with open("_data/people-info.json", "w") as f:
+with open("../_data/people-info.json", "w") as f:
     json.dump(people_summaries, f, ensure_ascii=False, indent=4)
         
