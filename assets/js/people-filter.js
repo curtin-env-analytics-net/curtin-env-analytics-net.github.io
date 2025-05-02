@@ -16,7 +16,7 @@ function handleLoad() {
                 if (prevSpaceIndex === -1) prevSpaceIndex = 0;
                 let nextSpaceIndex = expertiseString.indexOf(" ", occurenceIndex + searchString.length);
                 if (nextSpaceIndex === -1) nextSpaceIndex = expertiseString.length - 1;
-                el.style.display = "block";
+                el.style.display = "flex";
                 if (expertiseSnippetElement) {
                     const children = expertiseSnippetElement.children
                     expertiseSnippetElement.style.display = "block"

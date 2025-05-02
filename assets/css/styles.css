@@ -73,7 +73,9 @@
 }
 
 .person-display {
-  padding-right: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .person-display img {
