@@ -107,8 +107,17 @@
   text-decoration: underline;
 }
 
-.expertise-string {
+.expertise-string,
+.expertise-snippet {
   display: none;
+}
+
+.expertise-underline {
+  text-decoration: underline;
+}
+
+.expertise-snippet-middle {
+  color: red;
 }
 
 #people-container {

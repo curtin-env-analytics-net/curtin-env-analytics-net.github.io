@@ -2,5 +2,5 @@
     <a href="https://staffportal.curtin.edu.au/staff/profile/view/{{person.name_with_seo_suffix}}"><img src="{% if person.image %}{{ person.image }}{% else %}/assets/images/default-avatar.jpg{% endif %}"></img></a>
     <a href="https://staffportal.curtin.edu.au/staff/profile/view/{{person.name_with_seo_suffix}}" class="person-name">{{ person.first_name }} {{ person.last_name }}</a>
     <p>{{ person.position }}</p>
-    {% if person.expertise != null %}<p class="expertise-string">{{ person.expertise }}</p>{%endif%}
+    {% if person.expertise != null %}<p class="expertise-string">{{ person.expertise }}</p><p class="expertise-snippet"><span class="expertise-underline">Expertise:</span><span> </span><span class="expertise-snippet-left"></span><span class="expertise-snippet-middle"></span><span class="expertise-snippet-right"></span></p>{%endif%}
 </div>
