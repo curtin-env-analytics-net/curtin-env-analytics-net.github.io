@@ -60,6 +60,10 @@ defaults:
       type: pages
     values:
       layout: default
+      header:
+        overlay_color: "#000"
+        overlay_filter: "0.00"
+        overlay_image: /assets/images/splash/z-bend.png
 
 category_archive:
   type: liquid
