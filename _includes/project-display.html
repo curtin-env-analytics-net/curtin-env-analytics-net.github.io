@@ -1,8 +1,9 @@
 <div class="project-display">
-    <img src="/assets/images/projects/{{ project.image }}"></img>
-    <div><p class="project-title">{{ project.title }}</p>
-        <p><span>CEAN leads</span>: {%for collaborator in project.collaborators %}{{ collaborator }}{% if forloop.last != true %}, {% endif %}{% endfor %}</p>
-        <p><span>Partners</span>: {%for funder in project.funders %}{{ funder}}{% if forloop.last != true %}, {% endif %}{% endfor %}</p>
-        <p class="project-description">{{ project.description }}</p>
+    <a href="/projects/{{ project.slug }}"></a>
+    <div class="image-container">
+        <img src="/assets/images/projects/{{ project.image }}"></img>
+    </div>
+    <div class="text-container"><p class="project-title">{{ project.title }}</p>
+        <p class="cean-leads"><span>CEAN leads</span>: {%for collaborator in project.collaborators %}{{ collaborator }}{% if forloop.last != true %}, {% endif %}{% endfor %}</p>
     </div>
 </div>

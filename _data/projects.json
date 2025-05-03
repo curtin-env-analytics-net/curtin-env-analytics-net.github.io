@@ -1,6 +1,7 @@
 [
     {
         "title": "The toad containment zone",
+        "slug": "the-toad-containment-zone",
         "funders": [
             "Rangelands NRM",
             "Curtin University",
@@ -27,6 +28,7 @@
     },
     {
         "title": "Spatial planning for urban biodiversity conservation",
+        "slug": "spatial-planning-for-urban-biodiversity-conservation",
         "funders": [
             "Australian Research Council",
             "Development WA",
@@ -44,6 +46,7 @@
     },
     {
         "title": "Superb City Wrens",
+        "slug": "superb-city-wrens",
         "funders": [
             "City of Melbourne",
             "AAS Future Earth Australia",
@@ -58,6 +61,7 @@
     },
     {
         "title": "Improving Road Network Operations under Non-recurrent Events",
+        "slug": "improving-road-network-operations-under-non-recurrent-events",
         "funders": [
             "Australian Research Council",
             "Main Roads Western Australia",
@@ -72,6 +76,7 @@
     },
     {
         "title": "Electrochemical Detection of Gases",
+        "slug": "electrochemical-detection-of-gases",
         "funders": [
             "Sensirion"
         ],
@@ -83,6 +88,7 @@
     },
     {
         "title": "Electrochemical Sensing of Explosives",
+        "slug": "electrochemical-sensing-of-explosives",
         "funders": [
             "Australian Research Council"
         ],
@@ -94,6 +100,7 @@
     },
     {
         "title": "Gelled electrolyte for affordable, real-time water contamination sensing",
+        "slug": "gelled-electrolyte-for-affordable,-real-time-water-contamination-sensing",
         "funders": [
             "Australian Research Council"
         ],
@@ -106,6 +113,7 @@
     },
     {
         "title": "Analytics for the Australian Grains Industry",
+        "slug": "analytics-for-the-australian-grains-industry",
         "funders": [
             "Grains Research and Development Corporation",
             "The University of Queensland",
@@ -119,6 +127,7 @@
     },
     {
         "title": "WA Farm Data Sharing Project",
+        "slug": "wa-farm-data-sharing-project",
         "funders": [
             "Department of Primary Industries and Regional Development of Western Australia",
             "Grower Group Alliance",
@@ -134,6 +143,7 @@
     },
     {
         "title": "SPIChanges",
+        "slug": "spichanges",
         "funders": [
             "Gabriel Blain",
             "Graciela R. Sobierajski",

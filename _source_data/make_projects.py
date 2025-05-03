@@ -15,13 +15,21 @@ with open("projects.csv", "r") as file:
         with open(f"../assets/images/projects/{file_name}", "wb") as image_file:
             image_file.write(resp.content)
 
-        result.append({
-            "title": title, 
+        slug = title.lower().strip().replace(" ", "-")
+
+        new_entry = {
+            "title": title,
+            "slug": slug,
             "funders": [x.strip() for x in row.get("Partners").split(",")],
             "collaborators": [x.strip() for x in row.get("CEAN Leads").split(",")],
             "description": row.get("Project Blurb"),
             "image": file_name
-        })
+        }
+
+        result.append(new_entry)
+
+        with open(f"../_projects/{slug}.md", "w") as f:
+            f.write(f"---\nlayout: project-display\nimage: {new_entry["image"]}\nfunders: {new_entry["funders"]}\ncollaborators: {new_entry["collaborators"]}\ndescription: \"{new_entry["description"]}\"\nis_project_page: true\n---")
 
 with open("../_data/projects.json", "w") as file:
     json.dump(result, file, ensure_ascii=False, indent=4)

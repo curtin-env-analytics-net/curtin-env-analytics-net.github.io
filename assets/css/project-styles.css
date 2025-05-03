@@ -1,0 +1,150 @@
+#projects-container {
+  display: grid;
+  margin-left: 12px;
+  margin-right: 12px;
+  column-gap: 12px;
+  row-gap: 12px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1600px) {
+  #projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  #projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  #projects-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-display {
+  border: solid grey 1px;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 8px;
+  overflow: hidden;
+}
+
+.project-display > a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  z-index: 10;
+  background-color: white;
+  opacity: 0;
+  filter: alpha(opacity=1);
+}
+
+.project-display p {
+  font-size: medium;
+  margin: 0px;
+}
+
+.project-display:hover .project-title {
+  text-decoration: underline;
+}
+
+.project-display .project-title {
+  font-weight: bold;
+  font-size: large;
+  margin-top: 4px;
+}
+
+.project-display .cean-leads {
+  opacity: 0.8;
+}
+
+.project-display:hover .cean-leads {
+  opacity: 1;
+}
+
+.project-display .project-description {
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.project-display > .text-container {
+  padding-left: 10px;
+}
+
+.project-display .image-container {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.project-display img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s ease-in-out;
+  border-radius: 10px;
+}
+
+.project-display:hover img {
+  transform: scale(1.1);
+}
+
+.project-display span,
+.page-project-display span {
+  text-decoration: underline;
+}
+
+.page-project-display {
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  justify-items: center;
+  gap: 5%;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 100px;
+}
+
+.page-project-display img {
+  align-self: center;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .page-project-display {
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .page-project-display img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-project-display {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .page-project-display img {
+    width: 80%;
+  }
+}
+
+.page-project-display .project-title {
+  font-weight: bold;
+  font-size: xx-large;
+}

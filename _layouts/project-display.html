@@ -1,0 +1,13 @@
+---
+layout: default 
+---
+
+<div class="page-project-display">
+    
+    <div><p class="project-title">{{ page.title }}</p>
+        <p><span>CEAN leads</span>: {%for collaborator in page.collaborators %}{{ collaborator }}{% if forloop.last != true %}, {% endif %}{% endfor %}</p>
+        <p><span>Partners</span>: {%for funder in page.funders %}{{ funder}}{% if forloop.last != true %}, {% endif %}{% endfor %}</p>
+        <p class="project-description">{{ page.description }}</p>
+    </div>
+    <img src="/assets/images/projects/{{ page.image }}"></img>
+</div>

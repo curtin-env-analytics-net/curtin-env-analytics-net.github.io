@@ -68,4 +68,9 @@ tag_archive:
   type: liquid
   path: /tags/
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
 copyright: Curtin Environmental Analytics Network
