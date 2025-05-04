@@ -1,27 +1,15 @@
-# Minimal Mistakes remote theme starter
+# Curtin Environmental Analytics Network Website
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+The website is built with Jekyll using the Minimal Mistakes template.
 
-Contains basic configuration to get you a site with:
+To run the website locally, run the following command:
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+`bundle exec jekyll serve`
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Generating the data
 
----
+There are some python scripts in the `_source_data` directory which can be used to generate the data files which the website uses. These scripts make use of some python packages which are not installed by default. To run the scripts, you will first need to perform the following steps:
 
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+1. Create a Virtual Environment with `python -m venv venv`
+2. Enter the Virtual Environment with `source venv/bin/activate`
+3. Install the packages with `pip install -r requirements.txt`

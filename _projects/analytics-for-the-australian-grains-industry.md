@@ -1,6 +1,7 @@
 ---
 layout: project-display
-image: Analytics-for-the-Australian-Grains-Industry.png
+title: Analytics for the Australian Grains Industry
+image: analytics-for-the-australian-grains-industry.png
 funders: ['Grains Research and Development Corporation', 'The University of Queensland', 'University of Adelaide']
 collaborators: ['Adam H. Sparks']
 description: "Analytics for the Australian Grains Industry (AAGI) is a five-year strategic partnership aimed at harnessing analytics to drive the sector’s profitability and global competitiveness.

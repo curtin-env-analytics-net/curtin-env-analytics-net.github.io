@@ -1,6 +1,7 @@
 ---
 layout: project-display
-image: SPIChanges.png
+title: SPIChanges
+image: spichanges.png
 funders: ['Gabriel Blain', 'Graciela R. Sobierajski', 'Leticia L. Martins']
 collaborators: ['Adam H. Sparks']
 description: "SPIChanges is an R package designed to improve the interpretation of the Standardized Precipitation index (SPI) under changing climate conditions.

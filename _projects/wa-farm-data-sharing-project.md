@@ -1,6 +1,7 @@
 ---
 layout: project-display
-image: WA-Farm-Data-Sharing-Project.png
+title: WA Farm Data Sharing Project
+image: wa-farm-data-sharing-project.png
 funders: ['Department of Primary Industries and Regional Development of Western Australia', 'Grower Group Alliance', 'Curtin University', 'AxisTech', 'Food Agility CRC']
 collaborators: ['Adam H. Sparks']
 description: "This project aims to help growers make more sophisticated investment decisions using their farm data. Initially, the model will assess an optimal liming strategy, however could later be adapted to soil amelioration investments,  insurance evaluations,  property valuations or securing banking loans.

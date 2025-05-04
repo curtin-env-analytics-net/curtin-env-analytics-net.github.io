@@ -24,7 +24,7 @@
             "Judy Dunlop"
         ],
         "description": "This project looks to halt the invasion of cane toads across northern Australia and prevent their arrival to 27 million hectares of country, including the entire Pilbara and Gascoyne bioregions.  The project builds off decades of basic ecological work on the behaviour and physiological limits of cane toads. This was supplemented by a suite of simulation modelling of invasions across mapped landscapes to test scenarios.  The project is now in implementation phase and looks to build an ongoing partnership between indigenous landowners (Nyangumarta and Karajarri) and pastoral landholders to deliver the containment zone.  For further information see toadfree.zone.",
-        "image": "The-toad-containment-zone.jpeg"
+        "image": "the-toad-containment-zone.jpeg"
     },
     {
         "title": "Spatial planning for urban biodiversity conservation",
@@ -42,7 +42,7 @@
             "Dr Holly Kirk"
         ],
         "description": "This project aims to reduce the complexity of planning for biodiversity during urban development by enabling industry and government to visualise and measure the potential performance of different urban designs. We will create a new open-access online tool to allow spatial planning of urban biodiversity conservation actions. Expected outcomes include enhanced capacity for developers, environmental consultants and local governments to measure potential urban biodiversity outcomes at a range of scales. This should provide significant benefits to human well-being by increasing the efficiency of urban nature conservation and restoration in cities.",
-        "image": "Spatial-planning-for-urban-biodiversity-conservation.jpg"
+        "image": "spatial-planning-for-urban-biodiversity-conservation.jpg"
     },
     {
         "title": "Superb City Wrens",
@@ -57,7 +57,7 @@
             "Dr Holly Kirk"
         ],
         "description": "This urban citizen science project is gathering data on how small urban birds respond to strategic revegetation in the centre of a big city. We are individually marking Superb Fairy-wrens with colour-bands birds to better understand their movement and behaviour in urban landscapes. ",
-        "image": "Superb-City-Wrens.jpg"
+        "image": "superb-city-wrens.jpg"
     },
     {
         "title": "Improving Road Network Operations under Non-recurrent Events",
@@ -72,7 +72,7 @@
             "YH Wu"
         ],
         "description": "This ARC Linkage Project (LP170100341) is led by a team of researchers with Professor Benchawan Wiwatanapataphee from Curtin University serving as Project Manager and one of the main investigators. The project aims to improve the resilience and efficiency of road network operations during non-recurrent traffic events such as accidents, adverse weather, and infrastructure disruptions.\n\nIn partnership with Main Roads Western Australia (MRWA) and Roads and Maritime Services New South Wales (RMS NSW), the project integrates advanced mathematical modeling, fractional differential equations, and machine learning algorithms to develop real-time, data-driven traffic control and prediction strategies.\n\nUnder Professor Wiwatanapataphee’s management, the project has delivered significant innovations, including distributionally robust ramp metering systems and predictive freeway traffic control models tailored for high-impact, dynamic conditions. These strategies are informed by rich datasets from government partners and validated through computational simulations and empirical analysis.\n\nThe project demonstrates the value of academic-industry collaboration, resulting in both cutting-edge theoretical contributions and practical tools now being considered for operational use by transport authorities. Professor Wiwatanapataphee’s leadership has been critical in coordinating multi-disciplinary teams, reporting milestones, and engaging stakeholders, reinforcing her capacity to lead national-scale, impactful research initiatives.\n",
-        "image": "Improving-Road-Network-Operations-under-Non-recurrent-Events.png"
+        "image": "improving-road-network-operations-under-non-recurrent-events.png"
     },
     {
         "title": "Electrochemical Detection of Gases",
@@ -84,7 +84,7 @@
             "Debbie Silvester-Dean"
         ],
         "description": "This research involves the detection of gases such as oxygen, hydrogen, ammonia, sulphur dioxide, hydrogen sulphide, chlorine, ethylene, methylamine using electrochemical methods on miniaturised electrodes. The main focus is on developing the materials for the electrode and electrolyte to detect these gases at analytically relevant levels, primarily for workplace safety applications. Ionic liquids and poly(ionic liquids) are exploited as electrolytes.",
-        "image": "Electrochemical-Detection-of-Gases.png"
+        "image": "electrochemical-detection-of-gases.png"
     },
     {
         "title": "Electrochemical Sensing of Explosives",
@@ -96,11 +96,11 @@
             "Debbie Silvester-Dean"
         ],
         "description": "This project focusses on the electrochemical detection of explosive compounds, such as TNT, DNT, RDX, HMX, PETN, tetryl, for forensic, security and industrial safety applications. Miniaturised electrodes with specially designed materials are used to target the explosives to enable their detection. TNT has been detected both dissolved in water samples, and in solid form on surfaces, using polymer films with specially designed characteristics. This is a rapid, low-cost way to detect explosives onsite, without the need to take samples back to the lab for analysis.",
-        "image": "Electrochemical-Sensing-of-Explosives.png"
+        "image": "electrochemical-sensing-of-explosives.png"
     },
     {
         "title": "Gelled electrolyte for affordable, real-time water contamination sensing",
-        "slug": "gelled-electrolyte-for-affordable,-real-time-water-contamination-sensing",
+        "slug": "gelled-electrolyte-for-affordable-real-time-water-contamination-sensing",
         "funders": [
             "Australian Research Council"
         ],
@@ -109,7 +109,7 @@
             "Elena Gorenskaia"
         ],
         "description": "We have developed a gel that can be used together with commercially available miniaturised electrodes to detect water contaminants instantly without the need for expensive, time consuming, and complex lab-based tests. Our novel electrolyte gel is based on ionic liquids and poly(ionic liquids) and uses electrochemical techniques for the detection. In combination with commercially available disposable “test-strips” (thin-film electrodes), we plan to create energy-efficient and battery-operated sensors for water testing which are well-suited for remote or off-grid environments due to their portability and robustness. ",
-        "image": "Gelled-electrolyte-for-affordable,-real-time-water-contamination-sensing.png"
+        "image": "gelled-electrolyte-for-affordable-real-time-water-contamination-sensing.png"
     },
     {
         "title": "Analytics for the Australian Grains Industry",
@@ -123,7 +123,7 @@
             "Adam H. Sparks"
         ],
         "description": "Analytics for the Australian Grains Industry (AAGI) is a five-year strategic partnership aimed at harnessing analytics to drive the sector’s profitability and global competitiveness.\n\nAAGI’s mission is to use analytics on grains data to help Australian grain growers to be more profitable and globally competitive through:\n\n* Supporting GRDC’s RD&E portfolio with good, efficient, analytics;\n* Doing more upskilling of the grains RD&E workforce;\n* Giving grains RD&E more analytics options;\n* Investing more in high-priority analytics research;\n* Attracting more co-investment and/or revenue to support grains RD&E analytics.\n\nThe initiative will deliver grower-facing analytics technologies and improve RD&E outcomes through five work programs:\n\n* Support\n* Services\n* Consultancy\n* Research & Development\n* Upskilling & Awareness.",
-        "image": "Analytics-for-the-Australian-Grains-Industry.png"
+        "image": "analytics-for-the-australian-grains-industry.png"
     },
     {
         "title": "WA Farm Data Sharing Project",
@@ -139,7 +139,7 @@
             "Adam H. Sparks"
         ],
         "description": "This project aims to help growers make more sophisticated investment decisions using their farm data. Initially, the model will assess an optimal liming strategy, however could later be adapted to soil amelioration investments,  insurance evaluations,  property valuations or securing banking loans.\n\nA Food Agility CRC  funded project delivered in collaboration with DPIRD, Curtin University and GGA, the project development was guided by consultation with grower groups, growers, agronomists, farm consultants, agtech and data providers over 10 months. \n\nThe project is developing a data transfer infrastructure leveraging DPIRD’s eConnect platform. It will seamlessly transfer data from the growers’ farm management software to the model and then return it to the grower using APIs.\n\nA whole of farm Monte Carlo simulation model has been created that ingests farm management records and generates thousands of scenarios allowing the model to account for seasonal variability in weather and commodity prices. This provides certainty regarding the optimal strategy and the risks associated with it.\n\nAdam led this work while working at DPIRD prior to joining Curtin in 2024.",
-        "image": "WA-Farm-Data-Sharing-Project.png"
+        "image": "wa-farm-data-sharing-project.png"
     },
     {
         "title": "SPIChanges",
@@ -153,6 +153,6 @@
             "Adam H. Sparks"
         ],
         "description": "SPIChanges is an R package designed to improve the interpretation of the Standardized Precipitation index (SPI) under changing climate conditions.\n\nBasic Description\n\nThe {SPIChanges} package was created to detect changes in rainfall patterns and quantify how they affect the probability of a drought event, quantified by the SPI (Mckee et al. 1993), occurring. The package applies a nonstationary approach proposed by Blain et al. (2022), designed to isolate the effect of such changes on the central tendency and dispersion of the SPI frequency distributions.\n\nThe package depends on R (>= 2.10) and imports the following packages: {lubridate}, {zoo}, {gamlss}, {gamlss.dist}, {stats}, {spsUtil}, {rlang}, {brglm2}, and {MuMIn}.\n\nhttps://github.com/gabrielblain/SPIChanges",
-        "image": "SPIChanges.png"
+        "image": "spichanges.png"
     }
 ]
