@@ -154,5 +154,34 @@
         ],
         "description": "SPIChanges is an R package designed to improve the interpretation of the Standardized Precipitation index (SPI) under changing climate conditions.\n\nBasic Description\n\nThe {SPIChanges} package was created to detect changes in rainfall patterns and quantify how they affect the probability of a drought event, quantified by the SPI (Mckee et al. 1993), occurring. The package applies a nonstationary approach proposed by Blain et al. (2022), designed to isolate the effect of such changes on the central tendency and dispersion of the SPI frequency distributions.\n\nThe package depends on R (>= 2.10) and imports the following packages: {lubridate}, {zoo}, {gamlss}, {gamlss.dist}, {stats}, {spsUtil}, {rlang}, {brglm2}, and {MuMIn}.\n\nhttps://github.com/gabrielblain/SPIChanges",
         "image": "spichanges.png"
+    },
+    {
+        "title": "Terrestrial ecosystem biomonitoring with eDNA across the tree of life: the Olympic Dam case study",
+        "slug": "terrestrial-ecosystem-biomonitoring-with-edna-across-the-tree-of-life-the-olympic-dam-case-study",
+        "funders": [
+            "BHP"
+        ],
+        "collaborators": [
+            "Paul Nevill"
+        ],
+        "description": "This project will develop and validate cutting edge\nmolecular tools to assess terrestrial biodiversity (soil\nmicrobial communities, plants, invertebrates, and\nvertebrates) and commence development of an eDNA\nbased metric for evaluating the condition of terrestrial\necosystems. This approach to ecosystem monitoring will\nadvance the study of individual species to understanding\nentire ecosystems and how species interconnect.",
+        "image": "terrestrial-ecosystem-biomonitoring-with-edna-across-the-tree-of-life-the-olympic-dam-case-study.jpeg"
+    },
+    {
+        "title": "Monitoring Groundwater Dependent Vegetation",
+        "slug": "monitoring-groundwater-dependent-vegetation",
+        "funders": [
+            "Rio Tinto",
+            "BHP",
+            "FMG",
+            "Atlas Iron",
+            "Roy Hill"
+        ],
+        "collaborators": [
+            "Todd Robinson",
+            "Lewis Trotter"
+        ],
+        "description": "Groundwater dependent vegetation will die if groundwater is depleted beyond their root systems. In the Pilbara, a major cause of this is from dewatering iron ore pits to extract the iron ore below the water table. This project was two pronged: firstly, use remote sensing to detect GDV and secondly, to monitor it for any loss of vigour. We created a suite of tools that could plug in to ArcGIS for simplifying the process. ",
+        "image": "monitoring-groundwater-dependent-vegetation.png"
     }
 ]
