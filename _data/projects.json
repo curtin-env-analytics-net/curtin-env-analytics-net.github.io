@@ -183,5 +183,43 @@
         ],
         "description": "Groundwater dependent vegetation will die if groundwater is depleted beyond their root systems. In the Pilbara, a major cause of this is from dewatering iron ore pits to extract the iron ore below the water table. This project was two pronged: firstly, use remote sensing to detect GDV and secondly, to monitor it for any loss of vigour. We created a suite of tools that could plug in to ArcGIS for simplifying the process. ",
         "image": "monitoring-groundwater-dependent-vegetation.png"
+    },
+    {
+        "title": "Landslide - tailings dam monitoring ",
+        "slug": "landslide-tailings-dam-monitoring",
+        "funders": [
+            "University of Nottingham (U.K)"
+        ],
+        "collaborators": [
+            "Sourav Das"
+        ],
+        "description": "This project investigated and proposed a statistical learning methodology to monitor the stability of tailing dam slopes. The study was motivated by the catastrophic Brumadinho taling dam disaster in Brazil. The methodology can be adapted to all major landslide types. ",
+        "image": "landslide-tailings-dam-monitoring.png"
+    },
+    {
+        "title": "Reconstructing Range Collapse of Australia's Iconic Avifauna",
+        "slug": "reconstructing-range-collapse-of-australia-s-iconic-avifauna",
+        "funders": [
+            "seeking expressions of interest"
+        ],
+        "collaborators": [
+            "Sean Tomlinson"
+        ],
+        "description": "Australia has an unenviable track record in the range collapse and extinction of terrestrial mammals, resulting from the combined threats of introduced predators, habitat loss, and changed fire regimes. Consequently, much attention has been focused on understanding these losses in order to prevent, or even reverse them.\nAustralia's unique avifauna have also suffered from these same threatening processes, but there has arguably been less visible effort in understand how, and how to respond for their conservation. Emerging biogeographical simulation tools have proven to be powerful tools in reconstructing range collapses and extinction trajectories of Australian mammals, and avifaunal megafauna in New Zealand. This project aims to incorporate many of the advances in this field, and apply to them to understanding patterns of range collapse of Australia's threatened birds.",
+        "image": "reconstructing-range-collapse-of-australia-s-iconic-avifauna.jpg"
+    },
+    {
+        "title": "Conservation Biogeography of Australian Orchids",
+        "slug": "conservation-biogeography-of-australian-orchids",
+        "funders": [
+            "Kings Park Science Department of Biodiversity Conservation and Attractions WA",
+            "Royal Botanic Gardens Victoria",
+            "LaTrobe University"
+        ],
+        "collaborators": [
+            "Sean Tomlinson"
+        ],
+        "description": "Australia boasts one of the highest diversities of terrestrial orchid species in the world, with substantial rates of endemism. Many of these species today are restricted to small pockets of remnant native vegetation resulting from the cumulative impacts of introduced herbivores, land conversion to urban and agricultural uses, and altered fire regimes. In many cases the niche envelope of these species is poorly understood, and their historical distribution is relatively unknown. This imposes difficulty in their management in the face of rapidly changing climates, which may vastly alter the suitability for many species. This project uses niche envelope and habitat suitability modelling to reconstruct the change in habitat suitability for a range of terrestrial orchids across the southern half of the continent, and to estimate future scenarios to guide conservation and management.",
+        "image": "conservation-biogeography-of-australian-orchids.jpg"
     }
 ]
