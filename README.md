@@ -13,3 +13,9 @@ There are some python scripts in the `_source_data` directory which can be used 
 1. Create a Virtual Environment with `python -m venv venv`
 2. Enter the Virtual Environment with `source venv/bin/activate`
 3. Install the packages with `pip install -r requirements.txt`
+
+## Contributing to the site
+
+Please flag corrections or suggestions through the [issues](https://github.com/curtin-env-analytics-net/curtin-env-analytics-net.github.io/issues) tab.
+
+If you would like to work on the site directly, please ask to be added as a contributor.  Workflow is then to request changes through reviewed pull requests, linked to issues.  The master branch is protected, so you cannot push to it directly.
