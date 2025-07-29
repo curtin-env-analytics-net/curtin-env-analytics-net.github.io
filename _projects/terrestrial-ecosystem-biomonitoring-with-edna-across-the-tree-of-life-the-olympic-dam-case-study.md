@@ -1,6 +1,6 @@
 ---
 layout: project-display
-title: Terrestrial ecosystem biomonitoring with eDNA across the tree of life: the Olympic Dam case study
+title: "Terrestrial ecosystem biomonitoring with eDNA across the tree of life: the Olympic Dam case study"
 image: terrestrial-ecosystem-biomonitoring-with-edna-across-the-tree-of-life-the-olympic-dam-case-study.jpeg
 funders: ['BHP']
 collaborators: ['Paul Nevill']
