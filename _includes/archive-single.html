@@ -1,0 +1,23 @@
+<a href="{{ include.item.url | relative_url }}" class="feature-card-link">
+    <div class="archive__item feature-card">
+      {% if include.item.image_path %}
+        <div class="archive__item-teaser">
+          <img src="{{ include.item.image_path | relative_url }}"
+               alt="{{ include.item.alt | default: include.item.title }}">
+        </div>
+      {% endif %}
+  
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">{{ include.item.title }}</h2>
+        {% if include.item.excerpt %}
+          <p>{{ include.item.excerpt }}</p>
+        {% endif %}
+        {% if include.item.btn_label and include.item.url %}
+          <a href="{{ include.item.url | relative_url }}" class="{{ include.item.btn_class | default: 'btn--primary' }}">
+            {{ include.item.btn_label }}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </a>
+  

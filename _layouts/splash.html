@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include page__hero.html %}
+
+<div id="main" role="main">
+  <div class="page__content">
+
+    {% if page.feature_row %}
+      {% include feature_row.html feature_row=page.feature_row %}
+    {% endif %}
+
+    {{ content }}
+
+  </div>
+</div>
