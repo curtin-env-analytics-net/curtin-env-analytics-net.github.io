@@ -4,7 +4,7 @@
 .feature__wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 4.5px;
     justify-content: center;
     margin-top: 32px;
     border-top: 1px solid #e3e6e5;
@@ -65,7 +65,7 @@
   
   /* Card Body */
   .archive__item-body {
-    padding: 16px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -108,7 +108,7 @@
     text-align: left;
     margin-left: 2%; 
     margin-right: auto;
-    padding-bottom: 5%;
+    padding-bottom: 0;
   }
 
 .archive__item.feature-card:hover {
