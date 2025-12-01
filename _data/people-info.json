@@ -57,7 +57,7 @@
         "first_name": "Ben",
         "last_name": "Saunders",
         "position": "Senior Lecturer",
-        "image": "https://dxybwjmxea64j.cloudfront.net/ben-saunders-dc73d60a.png",
+        "image": "https://dxybwjmxea64j.cloudfront.net/ben-saunders-dc73d60a.jpg",
         "name_with_seo_suffix": "ben-saunders-dc73d60a",
         "email": "ben.saunders@curtin.edu.au",
         "expertise": null
@@ -200,7 +200,7 @@
     {
         "first_name": "Sarina",
         "last_name": "Claassens",
-        "position": "Head of School",
+        "position": "Deputy Provost",
         "image": "https://dxybwjmxea64j.cloudfront.net/sarina-claassens-327ea294.jpg",
         "name_with_seo_suffix": "sarina-claassens-327ea294",
         "email": null,
@@ -218,7 +218,7 @@
     {
         "first_name": "Simon",
         "last_name": "Lewis",
-        "position": "Deputy Head of School",
+        "position": "Head of School",
         "image": "https://dxybwjmxea64j.cloudfront.net/simon-lewis-39065270.jpeg",
         "name_with_seo_suffix": "simon-lewis-39065270",
         "email": "s.lewis@curtin.edu.au",
