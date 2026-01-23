@@ -1,4 +1,10 @@
-<div class="person-display">
+<div
+  class="person-display"
+  data-first-name="{{ person.first_name }}"
+  data-last-name="{{ person.last_name }}"
+  data-position="{{ person.position }}"
+  data-expertise="{{ person.expertise | default: '' }}"
+>
     <a href="https://staffportal.curtin.edu.au/staff/profile/view/{{person.name_with_seo_suffix}}"><img src="{% if person.image %}{{ person.image }}{% else %}/assets/images/default-avatar.jpg{% endif %}"></img></a>
     <a href="https://staffportal.curtin.edu.au/staff/profile/view/{{person.name_with_seo_suffix}}" class="person-name">{{ person.first_name }} {{ person.last_name }}</a>
     <p>{{ person.position }}</p>

@@ -6,13 +6,79 @@ page_js:
 is_people_page: true
 ---
 
-<h1 class="page-title">People</h1>
+<h1 class="page-title">CEAN Staff</h1>
+
 <div class="search-container">
   <i class="fas fa-search"></i>
-  <input type="text" placeholder="Search by Expertise" id="people-search" />
+  <input type="text" placeholder="Search by name, position or expertise" id="people-search" />
 </div>
+
+<div class="search-filters">
+  <div class="filter-group position-filter">
+    <button type="button" class="filter-button">Position ▾</button>
+    <div class="filter-dropdown">
+      <label><input type="checkbox" value="Head of School"> Head of School</label>
+      <label><input type="checkbox" value="Deputy Head of School"> Deputy Head of School</label>
+      <label><input type="checkbox" value="Professor"> Professor</label>
+      <label><input type="checkbox" value="Associate Professor"> Associate Professor</label>
+      <label><input type="checkbox" value="Adjunct Associate Professor"> Adjunct Associate Professor</label>
+      <label><input type="checkbox" value="Lecturer"> Lecturer</label>
+      <label><input type="checkbox" value="Senior Lecturer"> Senior Lecturer</label>
+      <label><input type="checkbox" value="Senior Research Officer"> Senior Research Officer</label>
+      <label><input type="checkbox" value="Senior Research Fellow"> Senior Research Fellow</label>
+      <label><input type="checkbox" value="Research Fellow"> Research Fellow</label>
+      <label><input type="checkbox" value="Research Associate"> Research Associate</label>
+    </div>
+  </div>
+  <div class="filter-group expertise-filter">
+    <button type="button" class="filter-button">Expertise ▾</button>
+    <div class="filter-dropdown">
+      <label><input type="checkbox" value="Data Science"> Data Science</label>
+      <label><input type="checkbox" value="Modelling"> Modelling</label>
+      <label><input type="checkbox" value="Statistics"> Statistics</label>
+      <label><input type="checkbox" value="GIS"> GIS</label>
+    </div>
+  </div>
+</div>
+
 <div id="people-container">
-  {% for person in site.data.people-info %} {% include person-display.html
-  person=person %} {% endfor %}
+  {% assign schools = "EECMS,EPS,MLS,OTHER" | split: "," %}
+
+  {% assign school_labels = "
+    EECMS:School of Elec Eng, Comp and Math Sci (EECMS)|
+    EPS:School of Earth and Planetary Sciences (EPS)|
+    MLS:School of Molecular and Life Sciences (MLS)|
+    OTHER:Other
+  " | split: "|" %}
+
+  {% for school in schools %}
+    {% assign school = school | strip %}
+
+    {% assign label = "" %}
+    {% for pair in school_labels %}
+      {% assign parts = pair | split: ":" %}
+      {% assign key = parts[0] | strip %}
+      {% assign value = parts[1] | strip %}
+
+      {% if key == school %}
+        {% assign label = value %}
+      {% endif %}
+    {% endfor %}
+
+    <section class="school-section" data-school="{{ school }}">
+      <h2 class="school-heading">{{ label }}</h2>
+
+      <div class="people-list">
+        {% assign people = site.data.people-info
+          | where: "school", school
+          | sort: "last_name"
+        %}
+
+        {% for person in people %}
+          {% include person-display.html person=person %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
 </div>
 <script src="/assets/js/people-filter.js"></script>
