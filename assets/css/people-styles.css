@@ -1,3 +1,16 @@
+.people-page-container {
+  margin: 20 auto;
+  padding: 0 20px 40px;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
 .person-display {
   display: flex;
   width: 100%;
@@ -100,6 +113,23 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .people-page-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .page-title {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+
+  .school-heading {
+    font-size: 1.1rem;
+    margin: 25px 120px 20px;
+  }
+}
+
 .search-container {
   display: flex;
   align-items: center;
@@ -141,12 +171,11 @@
 }
 
 .school-heading {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 700;
   margin: 20px 80px 20px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
-  padding-top: 0;
   width: 100%;
   white-space: normal;
   word-break: break-word;
