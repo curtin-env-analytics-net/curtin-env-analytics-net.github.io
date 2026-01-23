@@ -9,16 +9,16 @@ function handleLoad() {
         const people = Array.from(list.querySelectorAll(".person-display"))
           .filter((el) => el.style.display !== "none");
   
-        people.sort((a, b) => {
-          const lastA = a.dataset.lastName.toLowerCase();
-          const lastB = b.dataset.lastName.toLowerCase();
-  
-          if (lastA !== lastB) return lastA.localeCompare(lastB);
-  
-          const firstA = a.dataset.firstName.toLowerCase();
-          const firstB = b.dataset.firstName.toLowerCase();
-          return firstA.localeCompare(firstB);
-        });
+          people.sort((a, b) => {
+            const firstA = a.dataset.firstName.toLowerCase();
+            const firstB = b.dataset.firstName.toLowerCase();
+          
+            if (firstA !== firstB) return firstA.localeCompare(firstB);
+          
+            const lastA = a.dataset.lastName.toLowerCase();
+            const lastB = b.dataset.lastName.toLowerCase();
+            return lastA.localeCompare(lastB);
+          });          
   
         people.forEach((person) => list.appendChild(person));
       });
