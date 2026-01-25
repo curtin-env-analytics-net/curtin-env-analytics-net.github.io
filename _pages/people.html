@@ -7,12 +7,19 @@ is_people_page: true
 ---
 
 <div class="people-page-container">
-<h1 class="page-title">Curtin Environmental Analytics Network Staff</h1>
+  <div class="page-header">
+    <h1 class="page-title">Curtin Environmental Analytics Network Staff</h1>
 
-<div class="search-container">
-  <i class="fas fa-search"></i>
-  <input type="text" placeholder="Search by name, position or expertise" id="people-search" />
+    <button class="search-toggle" id="search-toggle" aria-label="Search">
+      <i class="fa fa-search"></i>
+    </button>
+  </div>
 </div>
+
+
+<div class="search-container collapsed" id="search-container">
+  <input type="text" placeholder="Search by name or expertise" id="people-search" />
+  </div>
 
 <div class="search-filters">
   <div class="filter-group position-filter">
@@ -29,15 +36,6 @@ is_people_page: true
       <label><input type="checkbox" value="Senior Research Fellow"> Senior Research Fellow</label>
       <label><input type="checkbox" value="Research Fellow"> Research Fellow</label>
       <label><input type="checkbox" value="Research Associate"> Research Associate</label>
-    </div>
-  </div>
-  <div class="filter-group expertise-filter">
-    <button type="button" class="filter-button">Expertise ▾</button>
-    <div class="filter-dropdown">
-      <label><input type="checkbox" value="Data Science"> Data Science</label>
-      <label><input type="checkbox" value="Modelling"> Modelling</label>
-      <label><input type="checkbox" value="Statistics"> Statistics</label>
-      <label><input type="checkbox" value="GIS"> GIS</label>
     </div>
   </div>
 </div>
