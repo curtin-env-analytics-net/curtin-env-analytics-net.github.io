@@ -22,7 +22,21 @@ function handleLoad() {
 
     const searchBar = document.getElementById("people-search");
     const positionFilters = document.querySelector(".position-filter");
-  
+
+    const filterButton = document.querySelector(".filter-button");
+    const dropdown = document.querySelector(".filter-dropdown");
+
+    if (filterButton && dropdown) {
+      filterButton.addEventListener("click", (e) => {
+        e.stopPropagation();
+        dropdown.classList.toggle("open");
+      });
+
+      document.addEventListener("click", () => {
+        dropdown.classList.remove("open");
+      });
+    }
+
     function sortVisiblePeople() {
       document.querySelectorAll(".people-list").forEach((list) => {
         const people = Array.from(list.querySelectorAll(".person-display"))

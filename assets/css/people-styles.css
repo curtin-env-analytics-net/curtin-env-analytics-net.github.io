@@ -113,6 +113,7 @@ html, body {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 24px;
   padding: 0 16px;
+  justify-items: center;
 }
 
 @media (max-width: 1600px) {
@@ -166,13 +167,6 @@ html, body {
   .school-heading {
     font-size: 1.1rem;
     margin: 25px 120px 20px;
-  }
-}
-
-@media (max-width: 600px) {
-  .school-heading {
-    font-size: 0.6rem;
-    margin: 16px auto;
   }
 }
 
@@ -250,7 +244,7 @@ html, body {
     width: 72px;
     height: 72px;
   }
-}
+} 
 
 .search-container,
 .search-filters {
@@ -319,14 +313,12 @@ html, body {
 .school-heading {
   width: 100%;
   max-width: 100%;
-  margin: 24px auto 20px;
-  padding: 0 20px;
-  max-width: 1200px;
   font-size: 1rem;
   border-bottom: 1px solid #ddd;
   white-space: normal;
   word-break: break-word;
   overflow-wrap: anywhere;
+  padding-left: 5%;
 }
 
 .search-filters {
@@ -360,7 +352,11 @@ html, body {
   min-width: 220px;
 }
 
-.filter-group:hover .filter-dropdown {
+.filter-dropdown {
+  display: none;
+}
+
+.filter-dropdown.open {
   display: block;
 }
 
@@ -390,4 +386,92 @@ html, body {
   text-align: center;
   word-break: break-word;
   white-space: normal;
+}
+
+@media (max-width: 400px) {
+
+  .school-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .school-heading {
+    font-size: 0.75rem;
+    line-height: 1.35;
+
+    margin: 16px 0 12px;
+    padding: 0 14px;
+
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+
+    text-align: left;
+
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  .page-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .search-toggle {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+  }
+
+  .person-display {
+    max-width: 200px;
+  }
+  
+  .person-display img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .filter-button {
+    font-size: 0.75rem;
+  }
+  
+  .filter-dropdown {
+    min-width: 200px;
+  }
+
+  #people-search {
+    font-size: 0.75rem;
+  }
+
+  .search-container {
+    gap: 12px;
+  }
+
+  .search-container > select {
+    width: 100%;
+    max-width: 260px;
+    font-size: 0.75rem;
+    padding: 8px 10px;
+  }
+
+  .search-container > input {
+    width: 100%;
+    max-width: 260px;
+    font-size: 0.75rem;
+    padding: 10px 12px;
+  }
+
+  .person-display {
+    padding: 8px;
+  }
+
+  .person-name {
+    max-width: 150px;
+  }
 }
