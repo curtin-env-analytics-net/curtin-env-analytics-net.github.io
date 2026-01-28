@@ -207,3 +207,23 @@ footer, .page__footer {
     width: 100%;
   }
 }
+
+.masthead {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+  background-color: #000 !important;
+}
+  
+.masthead__inner-wrap,
+.masthead__menu,
+#site-nav {
+  background-color: #000 !important;
+}
+
+.masthead a,
+#site-nav a,
+.site-title {
+  color: #fff !important;
+}
+

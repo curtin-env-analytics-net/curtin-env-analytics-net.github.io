@@ -475,3 +475,15 @@ html, body {
     max-width: 150px;
   }
 }
+
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+}
+
+body, html {
+  overflow-x: visible !important;
+}
