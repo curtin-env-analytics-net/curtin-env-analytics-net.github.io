@@ -130,11 +130,19 @@
   .page__hero--overlay .page__lead {
     display: inline-block;
     margin: 0 auto;
-    text-shadow: 3px 3px 10px #000000cc;
+    text-shadow: 
+      3px 3px 10px #000000,
+      6px 6px 15px #00000055;
   }
   
   .page__hero--overlay .page__lead {
     padding-top: 8px;
+  }
+
+  .page__lead {
+    font-weight: 600;
+    font-size: 1.25rem;
+    white-space: nowrap;
   }
 
 /* Buttons */
