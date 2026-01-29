@@ -1,0 +1,29 @@
+@import "minimal-mistakes";
+
+/* ===============================
+   NAVBAR OVERRIDES
+   =============================== */
+
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav {
+  background-color: #000;
+}
+
+.greedy-nav a {
+  color: #fff;
+}
+
+/* Hamburger menu links */
+.greedy-nav .hidden-links {
+  background-color: #000;
+}
+
+.greedy-nav .hidden-links a {
+  color: #fff;
+}
+
+/* When menu is open */
+.greedy-nav.is-expanded .hidden-links a {
+  color: #000; /* turns black when open */
+}

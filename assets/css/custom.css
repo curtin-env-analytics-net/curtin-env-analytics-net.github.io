@@ -224,6 +224,23 @@ footer, .page__footer {
 .masthead a,
 #site-nav a,
 .site-title {
+  color: #fff;
+}
+
+/* Mobile menu dropdown */
+.masthead .hidden-links:not(.hidden) {
+  background-color: #fff !important;
+}
+
+.masthead .hidden-links:not(.hidden) a {
+  color: #000 !important;
+}
+
+.masthead .hidden-links:not(.hidden) li {
+  background-color: #fff !important;
+}
+
+.masthead .hidden-links.hidden a {
   color: #fff !important;
 }
 
