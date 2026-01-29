@@ -1,0 +1,8 @@
+{% assign features = include.feature_row | default: page.feature_row %}
+
+<div class="feature__wrapper">
+  {% for item in features %}
+    {% include archive-single.html item=item %}
+  {% endfor %}
+</div>
+

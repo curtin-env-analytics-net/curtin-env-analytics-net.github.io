@@ -79,3 +79,11 @@ collections:
     permalink: /projects/:name
 
 copyright: Curtin Environmental Analytics Network
+
+jekyll_algolia:
+  index_name: cean
+  application_id: ""
+  search_only_api_key: ""
+  nodes_to_index: ""
+
+

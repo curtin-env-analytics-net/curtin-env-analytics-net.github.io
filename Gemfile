@@ -16,4 +16,7 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
 end
 
+gem "faraday-retry"
+gem "ostruct"
+
 gem "webrick", "~> 1.9"

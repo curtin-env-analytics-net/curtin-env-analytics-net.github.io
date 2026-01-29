@@ -1,20 +1,253 @@
-/* ##### MAIN PAGE ##### */
+/* ##### MAIN PAGE STYLING ##### */
 
-/* Main Page Images */ 
-.feature__wrapper .archive__item-teaser {
-    aspect-ratio: 16 / 10;
-    overflow: hidden;
+/* Feature Wrapper */
+.feature__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 32px;
+    border-top: 1px solid #e3e6e5;
+    padding-top: 24px;
+}
+
+/* Each feature card */
+.feature__wrapper .archive__item {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
     border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    background-color: #fff;
+}
+  
+  /* Individual Feature Card */
+  .archive__item.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
   }
   
-  .feature__wrapper .archive__item-teaser img {
+  /* Card Hover Effect */
+  .archive__item.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Image Container */
+  .archive__item-teaser {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .archive__item-teaser img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 8px;
     display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  .feature__wrapper .archive__item-teaser img:hover {
+  .archive__item-teaser img:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
   }
+  
+  /* Card Body */
+  .archive__item-body {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65%;
+  }
+  
+  /* Card Title */
+  .archive__item-body h2.archive__item-title {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #435351;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+
+/* Title hover underline + color change */
+.archive__item-title {
+  font-size: 1.2rem;
+  color: #435351;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+
+.feature-card:hover .archive__item-title {
+    text-decoration: underline;
+    text-decoration-color: #000000;
+}
+  
+  /* Excerpt Paragraph */
+  .archive__item-body p {
+    font-size: 0.77em;
+    color: #49514f;
+    line-height: 1.30;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 2%;
+  }
+
+.archive__item.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+  
+  /* Clickable Link */
+  .feature-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Hero Section */
+  .page__hero--overlay .wrapper {
+    text-align: center;
+  }
+  
+  .page__hero--overlay .page__title,
+  .page__hero--overlay .page__lead {
+    display: inline-block;
+    margin: 0 auto;
+    text-shadow: 
+      3px 3px 10px #000000,
+      6px 6px 15px #00000055;
+  }
+  
+  .page__hero--overlay .page__lead {
+    padding-top: 8px;
+  }
+
+  .page__lead {
+    font-weight: 600;
+    font-size: 1.25rem;
+    white-space: nowrap;
+  }
+
+/* Buttons */
+.btn--primary {
+    display: inline-block;
+    padding: 10px 12px;
+    background-color: #435351;
+    color: #ffffff;
+    border-radius: inherit;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.25s ease, transform 0.15s ease;
+    border: none;
+    text-align: center;
+    width: max-content; 
+    max-width: 100%;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-card .btn--primary {
+    align-self: center;
+}
+
+/* Hover effect */
+.btn--primary:hover {
+    background-color: #0091ff;
+}
+  
+/* Footer */
+footer, .page__footer {
+  background-color: #000000;
+}
+
+.feature-card:hover {
+  text-decoration: none !important;
+}
+
+.feature-card:hover a {
+    text-decoration: none !important;
+}
+
+.feature-card:hover p,
+.feature-card:hover .btn--primary {
+    text-decoration: none !important;
+}
+
+/* BUT allow underline only on the title */
+.feature-card:hover .archive__item-title {
+    text-decoration: underline !important;
+}
+  
+/* Responsive: smaller screens */
+@media (max-width: 600px) {
+  .feature__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* flex-direction: column; */
+    /* align-items: stretch; */
+  }
+
+  .feature__wrapper > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+.masthead {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+  background-color: #000 !important;
+}
+  
+.masthead__inner-wrap,
+.masthead__menu,
+#site-nav {
+  background-color: #000 !important;
+}
+
+.masthead a,
+#site-nav a,
+.site-title {
+  color: #fff;
+}
+
+/* Mobile menu dropdown */
+.masthead .hidden-links:not(.hidden) {
+  background-color: #fff !important;
+}
+
+.masthead .hidden-links:not(.hidden) a {
+  color: #000 !important;
+}
+
+.masthead .hidden-links:not(.hidden) li {
+  background-color: #fff !important;
+}
+
+.masthead .hidden-links.hidden a {
+  color: #fff !important;
+}
